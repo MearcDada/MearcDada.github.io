@@ -1,0 +1,15 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon href=favicon.ico><title>送给一个小可爱</title><script>// 基准大小
+    const baseSize = 192
+    // 设置 rem 函数
+    function setRem() {
+      const scale = document.documentElement.clientWidth / 1920
+      // 设置页面根节点字体大小
+      // eslint-disable-next-line
+      document.documentElement.style.fontSize = baseSize * Math.min(scale, 2) + 'px'
+    }
+    // 初始化
+    setRem()
+    // 改变窗口大小时重新设置 rem
+    window.onresize = function () {
+      setRem()
+    }</script><link href=css/chunk-23b53a87.39681978.css rel=prefetch><link href=css/chunk-24b7a22e.f9a130e7.css rel=prefetch><link href=css/chunk-4abdd41e.b513de4a.css rel=prefetch><link href=css/chunk-5cc6c49a.a47a7b25.css rel=prefetch><link href=css/chunk-72c0d8f0.4cb2acbb.css rel=prefetch><link href=css/chunk-762b6202.fbd4f8db.css rel=prefetch><link href=css/chunk-f0575eba.406ad9b5.css rel=prefetch><link href=js/chunk-23b53a87.fa288ee0.js rel=prefetch><link href=js/chunk-24b7a22e.9bd32c5e.js rel=prefetch><link href=js/chunk-4abdd41e.c69969f5.js rel=prefetch><link href=js/chunk-5cc6c49a.a0ac889e.js rel=prefetch><link href=js/chunk-72c0d8f0.e6ce0cc7.js rel=prefetch><link href=js/chunk-762b6202.8637082b.js rel=prefetch><link href=js/chunk-f0575eba.6675f2da.js rel=prefetch><link href=css/app.882c0d86.css rel=preload as=style><link href=css/chunk-vendors.723a90c8.css rel=preload as=style><link href=js/app.e692c633.js rel=preload as=script><link href=js/chunk-vendors.486b064f.js rel=preload as=script><link href=css/chunk-vendors.723a90c8.css rel=stylesheet><link href=css/app.882c0d86.css rel=stylesheet></head><body><noscript><strong>We're sorry but vue-demo doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=js/chunk-vendors.486b064f.js></script><script src=js/app.e692c633.js></script></body></html>
